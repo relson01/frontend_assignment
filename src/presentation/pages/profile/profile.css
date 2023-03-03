@@ -1,0 +1,26 @@
+.alignTitle span {
+  display: inline-block;
+  width: 40%;
+  position: relative;
+  padding-right: 5px;
+}
+
+.alignTitle span::after {
+  content: ":";
+  position: absolute;
+  right: 10px;
+}
+
+.title span {
+  color: #a4a4a4;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+/* text-[#545454] text-xl font-bold */
+
+.title {
+  color: #545454;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
